@@ -1,0 +1,18 @@
+.form-control {color:#fff;}
+.form-control:focus,
+.form-control:hover {
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: var(--warning);
+  background-color: #fff;
+  border-color: var(--warning);
+  outline: 0;
+}
+
+.connect__us input[placeholder],
+.connect__us textarea[placeholder]
+{background:transparent;}
+.connect__us{
+background:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('./assets/img/web/laptop-typing.jpg') no-repeat center center; background-size:cover;
+}

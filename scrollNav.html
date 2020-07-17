@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Scroll Navigation.</title>
+<style type="text/css">
+.wrap {position:relative;}
+.menu_wrapper {
+background:#000;
+overflow:auto;
+white-space:nowrap;
+}
+.menu_wrapper:before,
+.menu_wrapper:after{
+content:'';
+position:absolute;
+width:50px;
+height:50px;
+z-index:1;
+}
+.menu_wrapper:before{
+left:0;
+background:linear-gradient(to right, #000 30%,  rgba(0,0,110,0));
+}
+.menu_wrapper:after{
+right:0;
+background:linear-gradient(to left, #000 30%,  rgba(0,0,110,0));
+}
+.menu_wrapper a{
+white-space:nowrap;
+line-height:50px;
+display:inline-block;
+color:cyan;
+text-decoration:none;
+padding:0 20px;
+}
+.menu_wrapper a:hover,
+.menu_wrapper a:focus,
+.menu_wrapper a:active
+{
+color:#fff;
+}
+</style>
+</head>
+<body>
+<div class="wrap" >
+<div class="menu_wrapper" >
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+<a href="#" >Home</a>
+</div>
+</div>
+</body>
+</html>

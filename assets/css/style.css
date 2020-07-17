@@ -1,0 +1,85 @@
+:root{
+--darkblue: #1a237e;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: panton_regular;
+}
+.bg-black-op05 {
+  background: rgba(0, 0, 0, 0.75);
+}
+.bg-white-op05 {
+  background: hsla(0, 0%, 100%, 0.75);
+}
+@media (min-width: 768) {
+  .w-md-25 {
+    width: 25% !important;
+  }
+}
+.panton-r {
+  font-family: panton_regular;
+}
+.panton-sb {
+  font-family: panton_semibold;
+}
+.panton-b {
+  font-family: panton_bold;
+}
+.panton-eb {
+  font-family: panton_extrabold;
+}
+.text-indigo {
+  color: var(--indigo);
+}
+.text-purple {
+  color: var(--purple);
+}
+.text-orange {
+  color: var(--orange);
+}
+.text-teal {
+  color: var(--teal);
+}
+.text-pink {
+  color: var(--pink);
+}
+.text-darkblue{color:var(--darkblue);}
+.bg-indigo {
+  background-color: var(--indigo);
+}
+.bg-purple {
+  background-color: var(--purple);
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+.bg-teal {
+  background-color: var(--teal);
+}
+.bg-pink {
+  background-color: var(--pink);
+}
+.bg-darkblue{background:var(--darkblue);}
+ .purple-grad {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#fff),
+    to(#9ebfde)
+  );
+  background: linear-gradient(to right bottom, #fff, #9ebfde);
+}
+
+.vis-hid{visibility:hidden;}
+.vis-vis{visibility:visible;}
+.vh-100{height:100vh;}
+	 
