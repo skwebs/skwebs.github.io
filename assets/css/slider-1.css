@@ -1,7 +1,5 @@
-/* style-1.css */
 @charset 'UTF-8';
 
-/* *************** Slider__1 ****************************************** */
 /* Slider */
 .slick-loading .slick-list{
 	background: #fff url('../../assets/vendor/slick/1.8.1/ajax-loader.gif') center center no-repeat;
@@ -17,9 +15,11 @@
 		url('../assets/vendor/slick/1.8.1/fonts/slick.ttf') format('truetype'), 
 		url('../assets/vendor/slick/1.8.1/fonts/slick.svg#slick') format('svg');
 }
-
+.slider__1-section {
+	position:relative;
+}
 .slider__1-wrapper{
-position:relative;
+	position:relative;
 }
 .slider__1 {
 	width:100%;

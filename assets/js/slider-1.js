@@ -6,7 +6,7 @@ function is_touch_enabled() {
 } 
    
 $(document).ready(()=>{
-    var time = 5;
+    var time = 7;
     var $bar,
     isPause,
     tick,
