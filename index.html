@@ -256,7 +256,7 @@
 							</div>
 							<div>
 								<input class="btn btn-success py-2 px-4" type="submit" name="submit" id="submit" value="Send Message">
-								<input class="btn btn-secondary py-2 px-4 mr-4" type="reset" value="Reset">
+								<input class="btn btn-secondary py-2 px-4 ml-4" type="reset" value="Reset">
 							</div>
 						</form>
 					</div>
@@ -312,32 +312,7 @@
 				</div>
 			</div>
 		</section>
-		<div class="process"> <i class="fa fa-cog fa-spin fa-4x fa-fw"></i> <span class="sr-only">Loading...</span>
-			<br>
-			<p class="process-msg text-center">Message</p>
-		</div>
-		<div class="modal fade" id="verifyOTPModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">OTP Verification!</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-					</div>
-					<div class="modal-body">
-						<form id="otpForm">
-							<div class="form-group">
-								<label for="otp" class="col-form-label">Enter OTP:</label>
-								<input type="number" name="otp" class="form-control" id="otp" min="6" maxlength="6"> <small id="otpExpMsg" class="text-muted">Your OTP will be expire in 60s.</small></div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<button id="resend-otp" class="btn btn-outline-primary" type="button" disabled="disabled"> <span class="spinner-border spinner-border-sm " role="status" aria-hidden="true"></span> Resend OTP </button>
-						<button id="verify-otp" type="button" class="btn btn-primary">Verify OTP</button>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 		<script defer src="./assets/js/script.js"></script>
 		<script defer src="./assets/js/slider-1.js"></script>
 		<script defer src="./assets/js/sidebar-min-beautify.js?v2"></script>
